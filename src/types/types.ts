@@ -25,7 +25,7 @@ export interface AggieFeedResponse {
     hash: String;
     masterId: String;
   };
-  title: String;
+  title: string;
   ucdEdusMeta: {
     endDate: String;
     labels: String[];
