@@ -1,38 +1,38 @@
 export interface AggieFeedResponse {
-  _id: String;
+  _id: string;
   generator: {
-    id: String;
+    id: string;
   };
   actor: {
     author: {
-      displayName: String;
-      id: String;
+      displayName: string;
+      id: string;
     };
-    displayName: String;
-    id: String;
-    objectType: String;
+    displayName: string;
+    id: string;
+    objectType: string;
   };
-  icon: String;
+  icon: string;
   object: {
-    content: String;
+    content: string;
     ucdEdusModel: {
-      url: String;
-      urlDisplayName: String;
+      url: string;
+      urlDisplayName: string;
     };
-    ucdSrcId: String;
-    objectType: String;
-    id: String;
-    hash: String;
-    masterId: String;
+    ucdSrcId: string;
+    objectType: string;
+    id: string;
+    hash: string;
+    masterId: string;
   };
   title: string;
   ucdEdusMeta: {
-    endDate: String;
-    labels: String[];
-    startDate: String;
+    endDate: string;
+    labels: string[];
+    startDate: string;
   };
-  verb: String;
-  id: String;
-  priority: Number;
-  published: String;
+  verb: string;
+  id: string;
+  priority: number;
+  published: string;
 }

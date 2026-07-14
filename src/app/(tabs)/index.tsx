@@ -54,7 +54,9 @@ export default function HomeScreen() {
   }, [url]);
 
   useEffect(() => {
-    fetchData();
+    void (async () => {
+      await fetchData();
+    })();
   }, [fetchData]);
 
   const handleItemPress = (item: AggieFeedResponse) => {
