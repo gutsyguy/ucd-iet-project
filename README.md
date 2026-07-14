@@ -37,7 +37,7 @@ A React Native (Expo) mobile app that fetches and displays the UC Davis AggieFee
 ### 1. Clone the repository
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/gutsyguy/ucd-iet-project.git
 cd iet-takehome
 ```
 
@@ -46,7 +46,7 @@ cd iet-takehome
 ```bash
 bun install
 # or
-npm install
+pnpm install
 ```
 
 ### 3. Create the environment file
@@ -78,8 +78,6 @@ Scan the QR code that appears in the terminal with:
 ### Android emulator
 
 ```bash
-bun android
-# or
 npx expo run:android
 ```
 
@@ -88,8 +86,6 @@ Requires Android Studio with at least one AVD (Android Virtual Device) created a
 ### iOS simulator (macOS only)
 
 ```bash
-bun ios
-# or
 npx expo run:ios
 ```
 
@@ -98,8 +94,6 @@ Requires Xcode with iOS simulator tools installed (`xcode-select --install`).
 ### Web
 
 ```bash
-bun web
-# or
 npx expo start --web
 ```
 
