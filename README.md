@@ -23,7 +23,6 @@ A React Native (Expo) mobile app that fetches and displays the UC Davis AggieFee
 | Tool | Version | Notes |
 |---|---|---|
 | Node.js | ≥ 18 | LTS recommended |
-| Bun _or_ npm | any | Bun is used in this project (`bun install`) |
 | Expo Go | latest | Install on a physical device from the App Store / Play Store |
 | Android Studio | latest | Required only for Android emulator (`expo run:android`) |
 | Xcode | ≥ 15 | Required only for iOS simulator (`expo run:ios`), macOS only |
@@ -44,8 +43,6 @@ cd iet-takehome
 ### 2. Install dependencies
 
 ```bash
-bun install
-# or
 pnpm install
 ```
 
