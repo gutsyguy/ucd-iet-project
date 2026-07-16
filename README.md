@@ -54,7 +54,7 @@ pnpm install
 Copy the template below and save it as **`.env.local`** in the project root:
 
 ```env
-EXPO_PUBLIC_BASE_URL=https://aggiefeed.ucdavis.edu/api/v1/activity/public?s=0&l=25
+EXPO_PUBLIC_BASE_URL=<url>
 ```
 
 > `.env.local` is listed in `.gitignore` and will never be committed. The `EXPO_PUBLIC_` prefix is required by Expo for variables that are inlined into the client bundle at build time.
